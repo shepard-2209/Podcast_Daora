@@ -1,0 +1,27 @@
+1.  Verifique se no aquivo "pom.xml" se encontra com as dependencias do seguinte modelo
+    <dependencies> 
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>RELEASE</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.github.oshi/oshi-core -->
+            <dependency>
+                <groupId>com.github.oshi</groupId>
+                <artifactId>oshi-core</artifactId>
+                <version>3.5.0</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.github.oshi/oshi-core -->
+            <dependency>
+                <groupId>com.github.oshi</groupId>
+                <artifactId>oshi-core</artifactId>
+                <version>3.13.3</version>
+            </dependency>
+    </dependencies>
+
+2. Vá até a aba "RUN" (no caso do Netbeans) e selecione a opção "Clean and Build" (ou ultilize o atalho Shift + F11);
+
+3. Ultilize o atalho de Shift + F6 para rodar o código;
+
+** Caso seja necessario configure as variaveis de ambiente e adicionando o Classpath (que se encontra no arquivo CLASSPATH.txt);
+
