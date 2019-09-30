@@ -10,13 +10,18 @@ public class ConexaoBanco {
     public BasicDataSource getConnection() {
 
         try {
+            
+    //Conectando com o Banco Azure{
 //            con.setDriverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
 //            con.setUrl("jdbc:sqlserver://01191065.database.windows.net:1433;"
 //                    + "database=mineHash;user=fabi_canedo@01191065;password=Mavibifa2019;"
 //                    + "encrypt=true;trustServerCertificate=false;"
 //                    + "hostNameInCertificate=*.database.windows.net;loginTimeout=30;");
+        //};
             
+
+    //Conectando com o Banco Local MySQL
             con.setDriverClassName("com.mysql.cj.jdbc.Driver");
             con.setUrl("jdbc:mysql://localhost:3306/teste_oshi?useTimezone=true&serverTimezone=UTC");
             con.setUsername("root");
